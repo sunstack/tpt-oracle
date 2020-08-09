@@ -41,6 +41,15 @@
 #brw-rw----. 1 grid dba    8, 17 Aug  9 07:43 FRADISK1
 #[oracle@srv1 disks]$
 #
+# ./enable_throttle.sh 8:1 500 100000000
+# ./enable_throttle.sh 8:1 500 100000000
+# ./enable_throttle.sh 259:4 500 100000000
+# ./enable_throttle.sh 259:5 500 100000000
+# and need run following to unset the io throttle
+# ./enable_throttle.sh 8:1
+# ./enable_throttle.sh 8:1
+# ./enable_throttle.sh 259:4
+# ./enable_throttle.sh 259:5
 
 DEVICE_ID=$1
 DEVICE_IOPS=$2
