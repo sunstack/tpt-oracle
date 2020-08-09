@@ -46,10 +46,10 @@
 # ./enable_throttle.sh 259:4 500 100000000
 # ./enable_throttle.sh 259:5 500 100000000
 # and need run following to unset the io throttle
-# ./enable_throttle.sh 8:1
-# ./enable_throttle.sh 8:1
-# ./enable_throttle.sh 259:4
-# ./enable_throttle.sh 259:5
+# ./disable_throttle.sh 8:1
+# ./disable_throttle.sh 8:1
+# ./disable_throttle.sh 259:4
+# ./disable_throttle.sh 259:5
 
 DEVICE_ID=$1
 DEVICE_IOPS=$2
